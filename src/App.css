@@ -1,0 +1,9 @@
+.selecteddate {
+  background-color: #fcab3f;
+  border-radius: 50%;
+  font-size: 10px;
+  padding: 3px 4px;
+  width: fit-content;
+  margin: auto;
+  color: white;
+}

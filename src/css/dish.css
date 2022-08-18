@@ -1,0 +1,49 @@
+.mealpic {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.foodtype {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+  color: #fdc963;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: white;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.country {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 94%;
+}
+
+.mealname {
+  position: absolute;
+  bottom: 0px;
+  color: #fdc963;
+  font-weight: bold;
+  padding-left: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 94%;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 5px 10px;
+}
